@@ -3,6 +3,15 @@ This is a repository made to hold the citations and notes on papers compiled for
 
 As Large Language Models (LLMs) have become publicly accessible, their use in popular culture will surely rise as their usefulness gains traction. A current LLM can often pass as human speech on first glance which can be dangerous. For example, this poses dangers to the school system as students begin to use LLMs to complete essay-based assignments. However, if used properly and announced ethically, the ability of an LLM to mimic human interaction can be useful. One such use is as a Non-Playable Character in a video game. Such roles require responses to a player's actions, but are typically limited behind a developer's generations before launch. LLMs could be used to produce more appropriately generated responses in real time. Through all these uses, a third-party may want to judge an LLM's ability to mimic human conversation. Here is a literature review on the methods and metrics by which current LLMs are judged on their humanity (hereto referred to as "humanity metrics").
 
+## Table of Contents
+- [Metric Topics](#metric-topics)
+    - [Engagement Metrics](#engagement-metrics)
+    - [Conversation Quality Metrics](#conversation-quality-metrics)
+    - [Human Likeness Metrics](#human-likeness-metrics)
+    - [User Satisfaction Metrics](#user-satisfaction-metrics)
+    - [Ethical and Fairness Metrics](#ethical-and-fairness-metrics)
+    - [Benchmarking Metrics](#benchmarking-metrics)
+
 ## Metric Topics
 ### Engagement Metrics:
 - **Conversation Length**: Measure the average length of conversations initiated by the chatbot. Longer conversations might indicate higher engagement.
