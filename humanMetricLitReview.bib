@@ -18,7 +18,6 @@
     pages = "1--8",
     abstract = "The overall objective of {`}social{'} dialogue systems is to support engaging, entertaining, and lengthy conversations on a wide variety of topics, including social chit-chat. Apart from raw dialogue data, user-provided ratings are the most common signal used to train such systems to produce engaging responses. In this paper we show that social dialogue systems can be trained effectively from raw unannotated data. Using a dataset of real conversations collected in the 2017 Alexa Prize challenge, we developed a neural ranker for selecting {`}good{'} system responses to user utterances, i.e. responses which are likely to lead to long and engaging conversations. We show that (1) our neural ranker consistently outperforms several strong baselines when trained to optimise for user ratings; (2) when trained on larger amounts of data and only using conversation length as the objective, the ranker performs better than the one trained using ratings {--} ultimately reaching a Precision@1 of 0.87. This advance will make data collection for social conversational agents simpler and less expensive in the future.",
 }
-
 @inproceedings{ding-etal-2023-enhancing,
     title = "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
     author = "Ding, Ning  and
@@ -967,4 +966,21 @@
     doi = "10.18653/v1/2023.findings-acl.861",
     pages = "13625--13649",
     abstract = "Natural language understanding (NLU) studies often exaggerate or underestimate the capabilities of systems, thereby limiting the reproducibility of their findings. These erroneous evaluations can be attributed to the difficulty of defining and testing NLU adequately. In this position paper, we reconsider this challenge by identifying two types of researcher degrees of freedom. We revisit Turing{'}s original interpretation of the Turing test and reveal that an effective test of NLU does not provide an operational definition; it merely provides inductive evidence that the test subject understands the language sufficiently well to meet stakeholder objectives. In other words, stakeholders are free to arbitrarily define NLU through their objectives. To use the test results as inductive evidence, stakeholders must carefully assess if the interpretation of test scores is valid or not. However, designing and using NLU tests involve other degrees of freedom, such as specifying target skills and defining evaluation metrics. As a result, achieving consensus among stakeholders becomes difficult. To resolve this issue, we propose a validity argument, which is a framework comprising a series of validation criteria across test components. By demonstrating that current practices in NLU studies can be associated with those criteria and organizing them into a comprehensive checklist, we prove that the validity argument can serve as a coherent guideline for designing credible test sets and facilitating scientific communication.",
+}
+@inproceedings{gao-emami-2023-turing,
+    title = "The {T}uring Quest: Can Transformers Make Good {NPC}s?",
+    author = "Gao, Qi Chen  and
+      Emami, Ali",
+    editor = "Padmakumar, Vishakh  and
+      Vallejo, Gisela  and
+      Fu, Yao",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 4: Student Research Workshop)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-srw.17",
+    doi = "10.18653/v1/2023.acl-srw.17",
+    pages = "93--103",
+    abstract = "In this paper, we study the viability of the deployment of language models towards non-playable character (NPC) scripts, by introducing a novel pipeline for the automatic construction of NPC scripts using Transformer-based believable scripts for a variety of game genres and specifications. In addition, we propose a self-diagnosis method inspired by previous work to develop language models, tailored specifically to desirable NPC qualities such as coherency, believability, and degree of repetition. Finally, we propose a new benchmark, called The Turing Quest, which we use to show that the pipeline, when applied to GPT-3, can generate for a variety of game genres and contexts, NPC scripts that can fool judges in thinking they have been written by humans. We believe that these findings can greatly benefit both the gaming industry and its global community of users, since many current games continue to base their NPCs on manually-curated scripts that are resource-demanding and may curb the immersiveness and enjoyment of the user.",
 }
