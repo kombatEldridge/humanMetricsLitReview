@@ -20,7 +20,6 @@ As Large Language Models (LLMs) have become publicly accessible, their use in po
 - **User Retention**: Track the percentage of users who return to interact with the chatbot again, indicating sustained engagement.
   1. Incorporating Politeness across Languages in Customer Care Responses: Towards building a Multi-lingual Empathetic Dialogue Agent [[Paper]](https://aclanthology.org/2020.lrec-1.514/)
   2. Generate-then-Retrieve: Intent-Aware FAQ Retrieval in Product Search [[Paper]](https://aclanthology.org/2023.acl-industry.73/)
-  3. PoliSe: Reinforcing Politeness Using User Sentiment for Customer Care Response Generation [[Paper]](https://aclanthology.org/2022.coling-1.538/)
 
 ### Conversation Quality Metrics:
 - **Coherence**: Assess the coherence and logical flow of the conversation. Incoherent responses can detract from the human-likeness.
@@ -52,6 +51,7 @@ As Large Language Models (LLMs) have become publicly accessible, their use in po
   3. From Multilingual Complexity to Emotional Clarity: Leveraging Commonsense to Unveil Emotions in Code-Mixed Dialogues [[Paper]](https://aclanthology.org/2023.emnlp-main.598/)
   4. SOCIAL IQA: Commonsense Reasoning about Social Interactions [[Paper]](https://aclanthology.org/D19-1454)
   5. Modulating Language Models with Emotions [[Paper]](https://aclanthology.org/2021.findings-acl.379)
+  6. PoliSe: Reinforcing Politeness Using User Sentiment for Customer Care Response Generation [[Paper]](https://aclanthology.org/2022.coling-1.538/)
 - **Personality**: Evaluate the chatbot's personality traits and how effectively they are conveyed through interactions.
   1. Manipulating the Perceived Personality Traits of Language Models [[Paper]](https://aclanthology.org/2023.findings-emnlp.156/)
   2. Controlling Personality-Based Stylistic Variation with Neural Natural Language Generators [[Paper]](https://aclanthology.org/W18-5019/)
